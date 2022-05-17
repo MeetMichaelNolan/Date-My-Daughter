@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Aplication For Permission To Date My Daughter</h1>
+        <p><strong>Note:</strong> Form is to be completed at least 21 days prior to date.</p>    
+
+        <div class="first">
+            <fieldset>
+                <legend><strong>Personal Details</strong></legend>
+                <label>Name:</label><input type="text" placeholder="Enter Name Here"><br>
+                <label>Address: </label><input type="text" placeholder="Enter Address Here"><br>
+                <label>Email: </label><input type="email" placeholder="Enter Email Here"><br>
+                <label>Phone Number: </label><input type="number" placeholder="Enter phone Number"><br>
+                <label>IQ: </label><input type="number" placeholder="Enter IQ Here"><br>
+                <label>Gender</label><br>
+                <input type="radio"><label>Male</label>
+                <input type="radio"><label>Female</label>
+                <input type="radio"><label>Other</label><br>
+                <label>Date of Proposed Outing:</label><input type="date">
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <label><strong>Check All That Apply</strong></label><br>
+                <input type="checkbox">I have tattoos and/or piercings<br>
+                <input type="checkbox">I am more than 2 years older than my daughter<br>
+                <input type="checkbox">I own a panel van or V8<br>
+                <input type="checkbox">I work full-time<br>
+                <input type="checkbox">My parents are rich<br>
+                <input type="checkbox">Is the date at a well lit public location<br>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <label><strong>Persuasion:</strong></label>
+                <select id="politics" name="politics">
+                    <option value="left">Left Wing</option>
+                    <option value="right">Right Wing</option>
+                    <option vaule="conservative">Conservative</option>
+                    <option value="nazi">Nazi</option>
+                </select>
+                <label>Education Level Completed</label>
+                <select id="edu" name="edu">
+                    <option vaule="uni">University</option>
+                    <option value="college">Community College</option>
+                    <option value="high">High School</option>
+                    <option value="none">None</option>
+                </select>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend><strong>Essay Section</strong></legend>
+                <label>In 50 Word Or More, Explain Why You Want To Date My Daughter:</label><br>
+                <textarea rows="5" placeholder="Enter Text Here"></textarea><br>
+                <label>Please Write Contact Details For 2 Refrences:</label><br>
+               <textarea rows="5" placeholder="Enter Text Here"></textarea><br>
+                <label>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates Here:</label><input type="file">
+            </fieldset>
+        </div>
+        <input type="submit" value="Send Your Application" class="btn">
+    </form>
+</body>
+</html>
